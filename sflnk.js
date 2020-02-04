@@ -147,7 +147,7 @@ function auto_safeconvert() {
         }
         if (a_to_vh == false) {
             var encryptedUrl = Base64.encode(a_to_vi);
-            document.getElementById("data-url").innerHTML =  + encryptedUrl;
+            document.getElementById("data-url").innerHTML = encryptedUrl;
             a_to_ve[i].href = randomPostingan;
             a_to_ve[i].rel = "nofollow";
             a_to_vb++;
